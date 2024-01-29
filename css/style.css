@@ -1,0 +1,101 @@
+*{
+
+    border: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.main-form {
+    background-color: rgb(178, 237, 218);
+    border-radius: 110px;
+    width: 400px;
+    height: 600px;
+
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.title1{
+    color: white;
+    background-color: rgba(160, 217, 199, 0.8);
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 60px;
+}
+
+.formIMC{
+    padding: 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.weight{
+    background-color: rgba(160, 217, 199, 0.8);
+    padding: 20px;
+    width: 350px;
+    border-radius: 24px;
+
+}
+
+label[name = "weight-content"]{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+    border-bottom: 1px solid;
+}
+
+.height{
+    background-color: rgba(160, 217, 199, 0.8);
+    padding: 20px;
+    width: 350px;
+    border-radius: 24px;
+
+}
+
+label[name = "height-content"]{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+    border-bottom: 1px solid;
+}
+
+.button{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-button{
+    width: 100px;
+    height: 50px;
+    border-radius: 24px;
+
+    color: white;
+    font-weight: bolder;
+}
+
+.item-button:hover{
+    background-color: rgba(0,0,0, 0.50);
+}
+
+.result-area{
+    background-color: rgba(160, 217, 199, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+
+}
